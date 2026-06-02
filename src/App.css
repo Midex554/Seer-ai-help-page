@@ -1450,3 +1450,35 @@ footer h4 {
     bottom: 15px;
   }
 }
+
+.search-preview {
+  margin-top: 16px;
+  max-width: 590px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.search-preview p {
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 10px;
+}
+
+.search-preview button {
+  width: 100%;
+  display: block;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 12px;
+  border-radius: 10px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.search-preview button:hover {
+  background: #fff;
+  color: #000;
+}
